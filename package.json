@@ -1,0 +1,20 @@
+{
+  "name": "rainbowhoof",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rainbowhoof - a js13kGames 2026 entry. A tiny unicorn auto-runs; drag to paint rainbow arcs and gallop on them.",
+  "type": "module",
+  "scripts": {
+    "dev": "http-server src-dev -p 8081 -c-1 --silent",
+    "serve": "http-server dist -p 8081 -c-1 --silent",
+    "build": "node build.mjs",
+    "verify": "node verify/verify.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "http-server": "^14.1.1",
+    "playwright": "^1.62.1",
+    "roadroller": "^2.1.0",
+    "terser": "^5.36.0"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+smoke.mjs
+smoke-*.png
+verify/bot-results.json
+verify/nan-caught.json
